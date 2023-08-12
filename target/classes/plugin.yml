@@ -1,0 +1,46 @@
+name: FlyCommand
+version: 1.2
+main: me.sunka.flycommand.FlyCommand
+api-version: '1.19'
+description: Basic Utility Plugin
+
+commands:
+  fly:
+    description: Enables/Disables fly mode for player
+    usage: /fly
+  hello:
+    description: Hello!
+    usage: /hello
+  home:
+    description: Teleport to Home!
+    usage: /home
+  sethome:
+    description: Set your home!
+    usage: /sethome
+  heal:
+    description: Heals player
+    usage: /heal
+  feed:
+    description: Feeds player
+    usage: /feed
+  gmc:
+    description: Gamemode creative
+    usage: /gmc
+  gms:
+    description: Gamemode survival
+    usage: /gms
+  spawn:
+    description: Spawn
+    usage: /spawn
+  craft:
+    description: Opens crafting table
+    usage: /craft
+  kit:
+    description: Base kit
+    usage: /kit
+  back:
+    description: get back to death position!
+    usage: /back
+  tpa:
+    description: Teleportation request
+    usage: /tpa <a/d/Player>
