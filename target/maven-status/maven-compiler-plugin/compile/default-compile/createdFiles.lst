@@ -8,7 +8,6 @@ me\sunka\flycommand\listeners\SItem.class
 me\sunka\flycommand\commands\Back.class
 me\sunka\flycommand\commands\Kit.class
 me\sunka\flycommand\commands\Spawn.class
-me\sunka\flycommand\SpawnLocation.class
 me\sunka\flycommand\commands\Home.class
 me\sunka\flycommand\commands\HashMaps.class
 me\sunka\flycommand\commands\Tpa.class

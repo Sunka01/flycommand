@@ -30,8 +30,8 @@ public class Tpa implements CommandExecutor {
             if (HashMaps.tpaCheck.get(senderNickname).equals(true)) {
                 String targetNickname;
                 targetNickname = HashMaps.tpaPlayer.get(senderNickname);
-                target = Bukkit.getPlayerExact(targetNickname);
-                sender.teleport(target.getLocation());
+                target = Bukkit.getPlayer(targetNickname);
+                sender.teleport(Bukkit.getPlayer(targetNickname).getLocation());
                 target.sendMessage("§aYou got teleported to " + senderNickname);
                 sender.sendMessage("§a" + targetNickname + " teleported to you!");
                 HashMaps.tpaCheck.put(null,null);
