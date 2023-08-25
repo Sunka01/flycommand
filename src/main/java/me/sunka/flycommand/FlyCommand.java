@@ -2,6 +2,7 @@ package me.sunka.flycommand;
 
 import me.sunka.flycommand.commands.*;
 import me.sunka.flycommand.listeners.JoinListener;
+import me.sunka.flycommand.listeners.Lifeadd;
 import me.sunka.flycommand.listeners.Lifesteal;
 import me.sunka.flycommand.listeners.SItem;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -30,6 +31,7 @@ public final class FlyCommand extends JavaPlugin {
         this.getServer().getPluginManager().registerEvents(new JoinListener(), this);
         this.getServer().getPluginManager().registerEvents(new SItem(), this);
         this.getServer().getPluginManager().registerEvents(new Lifesteal(), this);
+        this.getServer().getPluginManager().registerEvents(new Lifeadd(), this);
 
     }
 

@@ -16,7 +16,7 @@ public class Lifesteal implements Listener {
 
             player.setHealthScale(player.getHealthScale() - 1);
             player.getKiller().setHealthScale(player.getKiller().getHealthScale() + 1);
-            if (player.getHealthScale() <= 0) {
+            if (player.getHealthScale() <= 1) {
                 player.kickPlayer("You ran out of health!");
             }
         }
