@@ -26,6 +26,7 @@ public final class FlyCommand extends JavaPlugin {
         this.getCommand("kit").setExecutor(new Kit());
         this.getCommand("back").setExecutor(new Back());
         this.getCommand("tpa").setExecutor(new Tpa());
+        this.getCommand("heart").setExecutor(new HealthOrd());
 
         // Listeners
         this.getServer().getPluginManager().registerEvents(new JoinListener(), this);

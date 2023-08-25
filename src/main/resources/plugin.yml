@@ -44,3 +44,6 @@ commands:
   tpa:
     description: Teleportation request
     usage: /tpa <a/d/Player>
+  heart:
+    description: add a heart item
+    usage: /health
